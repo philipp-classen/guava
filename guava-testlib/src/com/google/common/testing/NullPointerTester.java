@@ -78,7 +78,6 @@ public final class NullPointerTester {
    * Accept {@link java.lang.IllegalArgumentException} instead of
    * {@link java.lang.NullPointerException}
    */
-  @NonNull
   public NullPointerTester allowIllegalArgumentExceptionOnNullViolations() {
     policy = ExceptionTypePolicy.NPE_IAE_OR_UOE;
     return this;
